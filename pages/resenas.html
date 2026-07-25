@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Reseñas y testimonios de pasajeros de BPM Traslados — traslados a recitales y festivales en Córdoba." />
+  <title>Reseñas — BPM Traslados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="../index.html" class="navbar-logo">BPM <span class="accent">Traslados</span></a>
+      <ul class="navbar-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#proximos-shows">Próximos Shows</a></li>
+        <li><a href="como-reservar.html">Cómo Reservar</a></li>
+        <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+        <li><a href="resenas.html" class="active">Reseñas</a></li>
+      </ul>
+      <a href="https://wa.me/5493517606189?text=Hola%21%20Me%20interesa%20saber%20m%C3%A1s%20sobre%20los%20traslados."
+         target="_blank" rel="noopener" class="navbar-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.091.538 4.058 1.479 5.777L0 24l6.395-1.479A11.947 11.947 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.607-.49-5.126-1.348l-.368-.211-3.795.877.896-3.704-.229-.378A9.962 9.962 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        WhatsApp
+      </a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="navbar-mobile" id="navbar-mobile">
+      <a href="../index.html">Inicio</a>
+      <a href="../index.html#proximos-shows">Próximos Shows</a>
+      <a href="como-reservar.html">Cómo Reservar</a>
+      <a href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
+      <a href="resenas.html">Reseñas</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <h1>Reseñas</h1>
+    <p>Lo que dicen los que ya viajaron con BPM Traslados.</p>
+  </div>
+
+  <!-- REVIEWS CONTENT -->
+  <main class="page-content">
+
+    <!-- Stats row -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-bottom:2.5rem;text-align:center;">
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;">
+        <div style="font-size:2rem;font-weight:800;color:var(--accent-light);">★ 4.9</div>
+        <div style="font-size:0.8rem;color:var(--text-muted);margin-top:0.25rem;">Calificación promedio</div>
+      </div>
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;">
+        <div style="font-size:2rem;font-weight:800;color:var(--accent-light);">200+</div>
+        <div style="font-size:0.8rem;color:var(--text-muted);margin-top:0.25rem;">Pasajeros transportados</div>
+      </div>
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;">
+        <div style="font-size:2rem;font-weight:800;color:var(--accent-light);">30+</div>
+        <div style="font-size:0.8rem;color:var(--text-muted);margin-top:0.25rem;">Eventos cubiertos</div>
+      </div>
+    </div>
+
+    <!-- Reviews grid -->
+    <div class="reviews-grid">
+
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Excelente servicio, súper puntual y el conductor muy amable. Llegamos justo para el comienzo del show de Richie Hawtin. ¡Ya reservé para el próximo!"</p>
+        <div class="review-author">
+          <div class="review-avatar">ML</div>
+          <div>
+            <div class="review-name">Martina L.</div>
+            <div class="review-event">Richie Hawtin @ Forja</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"La mejor forma de ir a Cosquín Rock. Sin preocuparte por el auto, sin problema de estacionamiento y con gente que va con las mismas ganas que vos. 100% recomendable."</p>
+        <div class="review-author">
+          <div class="review-avatar">JR</div>
+          <div>
+            <div class="review-name">Juan R.</div>
+            <div class="review-event">Cosquín Rock 2025</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Fui con un grupo de amigos al show de Marco Carola en La Fábrica. Todo perfecto, el grupo de WhatsApp funcionó re bien para coordinar. Ya somos clientes fijos."</p>
+        <div class="review-author">
+          <div class="review-avatar">VP</div>
+          <div>
+            <div class="review-name">Valentina P.</div>
+            <div class="review-event">Marco Carola @ La Fábrica</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Super organizado. Responden rápido, te explican todo bien y el traslado esperó aunque el show terminó más tarde de lo esperado. Eso vale oro. ¡Gracias BPM!"</p>
+        <div class="review-author">
+          <div class="review-avatar">FG</div>
+          <div>
+            <div class="review-name">Facundo G.</div>
+            <div class="review-event">Claptone @ La Estación</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Primera vez que usaba el servicio y quedé encantada. El precio es muy accesible para lo que ofrecen. La combi limpia y el conductor re buena onda. Volveré seguro."</p>
+        <div class="review-author">
+          <div class="review-avatar">SC</div>
+          <div>
+            <div class="review-name">Sofía C.</div>
+            <div class="review-event">Maceo Plex @ Forja</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Organizamos un grupo de 6 amigos y todo salió perfecto. Reservar fue facilísimo por WhatsApp, el pago sin complicaciones. La pasamos genial de ida y de vuelta."</p>
+        <div class="review-author">
+          <div class="review-avatar">AR</div>
+          <div>
+            <div class="review-name">Agustín R.</div>
+            <div class="review-event">John Digweed @ Berta</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA Dejar reseña -->
+    <div style="text-align:center;padding:2rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);">
+      <h3 style="font-size:1.1rem;margin-bottom:0.5rem;">¿Viajaste con nosotros?</h3>
+      <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:1.25rem;">Tu opinión nos ayuda a mejorar y a que otros pasajeros se animen a sumarse.</p>
+      <a href="https://www.instagram.com/bpm.traslados/" target="_blank" rel="noopener" class="cta-leave-review">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        Dejá tu reseña en Instagram
+      </a>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">BPM <span>Traslados</span></div>
+          <p>Servicio de traslados a recitales, festivales y eventos de música en Córdoba.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="como-reservar.html">Cómo Reservar</a></li>
+            <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a href="resenas.html">Reseñas</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <a href="https://wa.me/5493517606189" target="_blank" rel="noopener" class="contact-item">
+            <span class="icon">💬</span> +54 9 351 760-6189
+          </a>
+          <a href="https://www.instagram.com/bpm.traslados/" target="_blank" rel="noopener" class="contact-item">
+            <span class="icon">📷</span> @bpm.traslados
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 BPM Traslados. Todos los derechos reservados.</p>
+        <div class="footer-legal"><span>🚌</span><span>Traslados a eventos — Córdoba</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5493517606189?text=Hola%21%20Me%20interesa%20saber%20m%C3%A1s%20sobre%20los%20traslados."
+     target="_blank" rel="noopener" class="whatsapp-fab" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" style="position:relative;z-index:1">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.091.538 4.058 1.479 5.777L0 24l6.395-1.479A11.947 11.947 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.607-.49-5.126-1.348l-.368-.211-3.795.877.896-3.704-.229-.378A9.962 9.962 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+    </svg>
+  </a>
+
+  <script src="../js/events.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

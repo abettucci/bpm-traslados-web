@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BPM Traslados — Traslados a recitales, festivales y eventos de música en Córdoba. Salida desde el centro, cómodo y seguro." />
+  <title>BPM Traslados — Traslados a recitales y festivales en Córdoba</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo">BPM <span class="accent">Traslados</span></a>
+
+      <ul class="navbar-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="#proximos-shows">Próximos Shows</a></li>
+        <li><a href="pages/como-reservar.html">Cómo Reservar</a></li>
+        <li><a href="pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+        <li><a href="pages/resenas.html">Reseñas</a></li>
+      </ul>
+
+      <a href="https://wa.me/5493517606189?text=Hola%21%20Me%20interesa%20saber%20m%C3%A1s%20sobre%20los%20traslados."
+         target="_blank" rel="noopener" class="navbar-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.091.538 4.058 1.479 5.777L0 24l6.395-1.479A11.947 11.947 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.607-.49-5.126-1.348l-.368-.211-3.795.877.896-3.704-.229-.378A9.962 9.962 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        WhatsApp
+      </a>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="navbar-mobile" id="navbar-mobile">
+      <a href="index.html">Inicio</a>
+      <a href="#proximos-shows">Próximos Shows</a>
+      <a href="pages/como-reservar.html">Cómo Reservar</a>
+      <a href="pages/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+      <a href="pages/resenas.html">Reseñas</a>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Salida desde el Centro · Córdoba
+      </div>
+
+      <h1>Traslados a <em>recitales</em><br>y festivales en Córdoba</h1>
+
+      <p>Viajá seguro y cómodo a los mejores shows del país. Salimos desde la Municipalidad de Córdoba y esperamos que termines de disfrutar.</p>
+
+      <div class="hero-actions">
+        <a href="#proximos-shows" class="btn-primary">
+          Ver próximos eventos
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="pages/como-reservar.html" class="btn-secondary">
+          ¿Cómo funciona?
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DEPARTURE STRIP ===================== -->
+  <div class="departure-strip">
+    <div class="departure-inner">
+      <span class="icon">📍</span>
+      <p><strong>Punto de salida:</strong> Municipalidad de Córdoba — Marcelo T. de Alvear 120 (sobre La Cañada, 2 cuadras de Patio Olmos)</p>
+      <span style="color:var(--text-faint)">·</span>
+      <span class="icon">⏰</span>
+      <p>Llegar <strong>15 minutos antes</strong> del horario de salida</p>
+    </div>
+  </div>
+
+  <!-- ===================== EVENTS ===================== -->
+  <section class="events-section" id="proximos-shows">
+    <div class="section-header">
+      <h2 class="section-title">Próximos Shows</h2>
+      <span class="section-count" id="events-count">12 eventos</span>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar">
+      <button class="filter-pill active" data-filter="todos">Todos</button>
+      <button class="filter-pill" data-filter="electronica">Electrónica</button>
+      <button class="filter-pill" data-filter="rock">Rock</button>
+      <button class="filter-pill" data-filter="festival">Festival</button>
+    </div>
+
+    <!-- Cards grid -->
+    <div class="events-grid" id="events-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="how-section">
+    <div class="how-inner">
+      <h2 class="section-title">¿Cómo funciona?</h2>
+      <p class="how-subtitle">Reservar tu lugar es simple y rápido</p>
+
+      <div class="how-steps">
+        <div class="how-step">
+          <div class="how-step-icon">
+            🎵
+            <span class="how-step-num">1</span>
+          </div>
+          <h3>Elegí tu evento</h3>
+          <p>Buscá el show en nuestra grilla y apretá RESERVAR.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-step-icon">
+            💬
+            <span class="how-step-num">2</span>
+          </div>
+          <h3>Confirmá por WhatsApp</h3>
+          <p>Te contactamos para confirmar disponibilidad y el pago.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-step-icon">
+            🚌
+            <span class="how-step-num">3</span>
+          </div>
+          <h3>Subite y disfrutá</h3>
+          <p>Presentate 15 min antes en el punto de salida. ¡Nosotros manejamos!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">BPM <span>Traslados</span></div>
+          <p>Servicio de traslados a recitales, festivales y eventos de música en Córdoba. Cómodo, seguro y puntual.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/como-reservar.html">Cómo Reservar</a></li>
+            <li><a href="pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a href="pages/resenas.html">Reseñas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <a href="https://wa.me/5493517606189" target="_blank" rel="noopener" class="contact-item">
+            <span class="icon">💬</span>
+            +54 9 351 760-6189
+          </a>
+          <a href="https://www.instagram.com/bpm.traslados/" target="_blank" rel="noopener" class="contact-item">
+            <span class="icon">📷</span>
+            @bpm.traslados
+          </a>
+          <a href="#proximos-shows" class="contact-item">
+            <span class="icon">📍</span>
+            Córdoba, Argentina
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 BPM Traslados. Todos los derechos reservados.</p>
+        <div class="footer-legal">
+          <span>🚌</span>
+          <span>Servicio de transfer a eventos y recitales — Córdoba</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== WHATSAPP FAB ===================== -->
+  <a href="https://wa.me/5493517606189?text=Hola%21%20Me%20interesa%20saber%20m%C3%A1s%20sobre%20los%20traslados."
+     target="_blank" rel="noopener" class="whatsapp-fab" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" style="position:relative;z-index:1">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.091.538 4.058 1.479 5.777L0 24l6.395-1.479A11.947 11.947 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.607-.49-5.126-1.348l-.368-.211-3.795.877.896-3.704-.229-.378A9.962 9.962 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+    </svg>
+  </a>
+
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
