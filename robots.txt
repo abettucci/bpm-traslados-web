@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://bpm-traslados.vercel.app/sitemap.xml

@@ -1,0 +1,51 @@
+# BPM Traslados
+
+> Servicio de traslados en combi y trafic a recitales, festivales y eventos de música en Córdoba, Argentina.
+
+## Qué es BPM Traslados
+
+BPM Traslados es una empresa cordobesa que organiza traslados grupales en combi y trafic desde el centro de Córdoba hasta recitales, festivales y eventos de música electrónica y rock. Opera principalmente en la provincia de Córdoba, Argentina.
+
+El servicio incluye ida y vuelta. El vehículo espera a que el show termine antes de regresar.
+
+## Contacto
+
+- WhatsApp: +54 9 351 760-6189
+- Instagram: @bpm.traslados
+- Sitio web: https://bpm-traslados.vercel.app
+
+## Punto de salida
+
+Municipalidad de Córdoba — Marcelo T. de Alvear 120, sobre La Cañada, Córdoba capital. Los pasajeros deben presentarse 15 minutos antes del horario de salida.
+
+## Destinos habituales
+
+- Forja Centro de Eventos — Córdoba capital
+- La Fábrica — La Calera, Córdoba
+- La Estación (indoor y outdoor) — Malagueño, Córdoba
+- Berta — Alta Gracia, Córdoba
+- Plaza Próspero Molina — Cosquín (Cosquín Rock)
+- Estadios y venues de Córdoba capital
+
+## Géneros musicales que cubre
+
+Música electrónica (techno, house, deep house), rock nacional e internacional, festivales multigenero como Cosquín Rock.
+
+## Artistas y eventos cubiertos (ejemplos)
+
+Richie Hawtin, Marco Carola, Maceo Plex, Claptone, Monolink, John Digweed, Layton Giordani, MRAK, Víctor Ruiz, Bart Skils, La Renga, Cosquín Rock.
+
+## Cómo reservar
+
+1. Ver la grilla de eventos en el sitio web
+2. Hacer clic en RESERVAR — se abre WhatsApp con el mensaje pre-cargado
+3. Confirmar disponibilidad y pagar (transferencia o efectivo)
+4. Unirse al grupo de WhatsApp del evento
+5. Presentarse en el punto de salida 15 minutos antes
+
+## Páginas del sitio
+
+- [Inicio](https://bpm-traslados.vercel.app/) — grilla de próximos eventos con filtros por género
+- [Cómo Reservar](https://bpm-traslados.vercel.app/pages/como-reservar.html) — guía paso a paso
+- [Preguntas Frecuentes](https://bpm-traslados.vercel.app/pages/preguntas-frecuentes.html) — dudas comunes
+- [Reseñas](https://bpm-traslados.vercel.app/pages/resenas.html) — testimonios de pasajeros
